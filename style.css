@@ -27,9 +27,9 @@ h1 {
 .header {
     background-color: #1F2937;
     color: white;
-    padding: 15px;
+    padding: 15px 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -38,5 +38,52 @@ h1 {
     gap: 20px;
 }
 
+.hero {
+    background-color: #1F2937;
+    padding: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.place-holder-img {
+    background-color: gray;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.intro {
+    width: 400px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+p {
+    color: #E5E7EB;
+}
+
+button {
+    padding: 10px;
+    background-color: #3882f6;
+    border: none;
+    color: #E5E7EB;
+    font-weight: bold;
+    width: 100px;
+    border-radius: 8px;
+}
 
 
